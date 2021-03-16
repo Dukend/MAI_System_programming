@@ -12,13 +12,13 @@ extern double mphi;
 extern double tolerance;
 extern double xmin;
 
-double a = 3.;
-double b = 4.;
+double a = 6.;
+double b = 8.;
 
 double fun(double x)
 {
-	x = (x - (100. / 101.));
-	return (std::log(x + 1) + std::exp(-x + 7)) + std::pow((x - 8), 3) - std::atan(x - 6) - 2;
+	x = x - 13. / 14.;
+	return x - sin(x) - cos(x);
 }
 
 double golden__section__search(double a, double b)

@@ -1,8 +1,8 @@
 ;golden21
-(define a 3)(define b 4)
+(define a 6)(define b 8)
 (define (fun x)
- (set! x (- x (/ 100 101)))
- (-(+(log(+ x 1))(exp(+(- x)7))(expt(- x 8)3)) (atan(- x 6)) 2)
+ (set! x (- x (/ 13 14)))
+ (-(- x (sin x)) (cos x))
 )
 (define (golden-section-search a b)
  (let(
