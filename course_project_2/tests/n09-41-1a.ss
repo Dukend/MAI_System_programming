@@ -1,0 +1,2 @@
+(define (f? a b?) #t)
+(define (g? f?) (f? 1 #t))
