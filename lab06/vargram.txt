@@ -1,0 +1,33 @@
+01. (define ($idq $idq $id)(or(not $idq)(< $dec $id) ))
+02. (if(< $id $dec)(let()(display $id)(- $id))$id)
+03.(set! $id(let()(display $id)$dec))$id
+04. (cond(($idq)$dec)($bool ($id)$id))
+05. (define $id($id $int($id $dec)))$id
+06.  (define($id $id)(let(($id $id))(* $id $dec)))
+07. (define ($id $id)(set! $id $dec)($id))($id $dec)
+08. (define $id $int)(set! $id(+ $id $dec )) $id
+09. (define $id $int) (define $id $dec) (set! $id(- $id $id))
+10. (define ($idq $id)(not(< $id $int)))($idq $dec)
+11. (define ($id $id)(+ $id $dec))($id $dec)
+12. (cond(($idq) $dec)($bool (display $str)$id))
+13. (cond(( $idq ) $dec)(else (display $str)$dec))
+14. (if ($idq) $dec(if (> $id $dec) $dec $dec))
+15. (define($idq $id $idq)(and (< $id $dec) $idq))
+16. (display(cond((= $int($id $dec))$str)(else $str)) )
+17. (display(-(+ $dec $dec)(- $dec)))(newline)
+18. (display ($idq $id (< $id $dec)) )(newline)
+19. (define ($id $id $id)(set! $id $int)$id)($id $dec $id)
+20. (set! $id(+ $dec $dec $dec $dec))$id
+21. (define $id $dec) (define $id $int) (- $id (- $dec))
+22. (define ($idq $id $id)(< $id $id))($idq $int $dec)
+23. (define ($id $id $id)(+ $id $id))($id $dec $dec)
+24. (cond((< $int $dec)$dec)($bool ($id)$id))
+25. (cond((< $dec $id) ($id $int))(else $dec))
+26. (set! $id(if(< $dec $id)$dec $dec))$id
+27. (if(not(< $dec $id))$str $str)$int
+28. (display ($id $dec($id $int)) )(newline)
+29. (display(-(+ $id $id $dec)))(newline)
+30. (cond((= $id $dec) $str)(else $str))
+31. (if(= $id $dec) $str $str)
+32.  (define($id $id)(let(($id $id))($id $dec)))
+
